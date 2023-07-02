@@ -277,7 +277,7 @@ main .sobre {
   }
 }
 
-/* Seção Services */
+/* SEÇÃO SERVIÇOS */
 
 .services {
     background-color: #151515;
@@ -370,7 +370,132 @@ main .sobre {
     border-left: 2px solid red;
 }
 
-/* Responsivo */
+/* SEÇÃO EXPERIÊNCIAS */
+
+.my_resume {
+    color: #fff;
+
+}
+
+.resume_generic {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 10px;
+    align-items: start;
+}
+
+.resume_generic h2 {
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    background-color: #ff5d56;
+    justify-self: start;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.resume_generic h2 i {
+    margin-right: 10px;
+}
+
+.experience {
+    margin-bottom: 30px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.experience_content ul {
+    color: #ff5d56;
+    gap: 10px;
+    display: flex;
+    cursor: pointer;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.resume_generic .experience_content div {
+    background-color: #222;
+    padding: 40px;
+    position: relative;
+}
+
+.resume_generic .experience_content div::before {
+    content: '';
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid #222;
+    position: absolute;
+    top: -20px;
+    left: 30px;
+    display: inline-block;
+}
+
+.resume_generic .experience_content div span {
+    color: #dc3545;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.resume_generic .experience_content div h3 {
+    font-family: 'Poppins';
+    margin: 10px 0;
+}
+
+.resume_generic .experience_content div p {
+    color: #707070;
+    font-size: 1.1rem;
+}
+
+/* MEUS DIPLOMAS E CURSOS */
+
+.education {
+    margin-bottom: 30px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.resume_generic .education_content div {
+    background-color: #222;
+    padding: 40px;
+    position: relative;
+}
+
+.education_content ul {
+    color: #ff5d56;
+    gap: 10px;
+    display: flex;
+    cursor: pointer;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.resume_generic .education_content div::before {
+    content: '';
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid #222;
+    position: absolute;
+    top: -20px;
+    left: 30px;
+    display: inline-block;
+}
+
+.resume_generic .education_content div span {
+    color: #dc3545;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.resume_generic .education_content div h3 {
+    font-family: 'Poppins';
+    margin: 10px 0;
+}
+
+.resume_generic .education_content div p {
+    color: #707070;
+    font-size: 1.1rem;
+}
+
+/* RESPONSIVO */
 
 @media (max-width: 992px) {
   .sobre img {

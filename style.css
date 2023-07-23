@@ -12,9 +12,9 @@
 
 body {
     background-color: #000;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
-
+    padding: 20px 50px;
 }
 
 
@@ -220,6 +220,7 @@ main .sobre {
 }
 
 .sobre_texto {
+    line-height: 2;
     display: grid;
     grid-column: 1/-1;
     grid-template-columns: 1fr 1fr;
@@ -246,6 +247,8 @@ main .sobre {
     font-size: 1.3rem;
     margin-bottom: 20px;
     grid-column: 1/-1;
+    text-indent: 2em;
+    text-align: justify;
 }
 
 .sobre_info {
@@ -290,6 +293,33 @@ main .sobre {
     }
 }
 
+/* MINHAS FOTOS */
+.citacao {
+    font-style: italic;
+}
+
+.citacao_autor {
+    font-size: 1em;
+}
+
+.photos_generic {
+    text-align: center;
+    padding: 25px;
+}
+
+.photos_generic img {
+    max-width: 350px;
+    margin: 15px;
+    border: solid 10px #fff;
+}
+
+.photos_generic img:hover{
+    border: solid 10px #dc3545; 
+}
+
+.photos_generic .paisagem {
+    max-width: 700px;
+}
 
 /* RESPONSIVO */
 
@@ -333,10 +363,7 @@ main .sobre {
         right: 20px;
         animation: sobeSecao .8s ease-in-out forwards;
     }
-}
 
-
-@media(max-width: 992px) {
     .sobre img {
         grid-column: 1/-1;
         justify-self: center;
@@ -379,8 +406,8 @@ main .sobre {
     gap: 30px;
     text-align: center;
     max-width: 300px;
-    align-content: center;
-    height: 300px;
+    
+    height: 550px;
     background-color: #222;
 }
 
@@ -497,6 +524,7 @@ main .sobre {
     display: none;
     background-color: #222;
     padding: 40px;
+    height: 410px;
 }
 
 
@@ -828,6 +856,12 @@ main .sobre {
     border-radius: 3px;
     color: #707070;
     border: 1px solid #333;
+}
+
+.projects ul li a {
+    padding: 0;
+    background-color: #151515;
+    border: none;
 }
 
 

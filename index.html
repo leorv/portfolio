@@ -17,15 +17,17 @@
 
   <body>
     <header>
-      <h1>Dev <span>Leonardo</span></h1>
+      <h1 id="home">Dev <span>Leonardo</span></h1>
       <nav>
         <ul class="navegacao-primaria">
           <li><a href="#home">HOME</a></li>
           <li><a href="#about">SOBRE</a></li>
-          <li><a href="#resume">RESUMO</a></li>
-          <li><a href="#portfolio"></a></li>
+          <li><a href="#fotos">FOTOS</a></li>
+          <li><a href="#services">SERVIÇOS</a></li>
+          <li><a href="#curriculo">CURRÍCULO</a></li>
+          <li><a href="#projetos">PROJETOS</a></li>
           <!-- <li><a href="#pricing"></a></li> -->
-          <li><a href="#contact">CONTATO</a></li>
+          <li><a href="#contact">SOCIAL</a></li>
         </ul>
         <i class="fa-solid fa-bars"></i>
       </nav>
@@ -49,7 +51,7 @@
     <main>
       <article aria-label="seção sobre mim" class="sobre">
         <div class="sobre_titulo">
-          <h1>Sobre mim</h1>
+          <h1 id="about">Sobre mim</h1>
           <p>Perfil profissional</p>
           <div
             class="circulos"
@@ -61,7 +63,7 @@
           </div>
         </div>
         <img
-          src="./img/20230330_110622_Leonardo.png"
+          src="./img/photos/eu-escola.jpg"
           alt="Imagem ilustrativa do Leonardo"
         />
         <div class="sobre_conteudo">
@@ -121,9 +123,8 @@
         </div>
       </article>
     </main>
-    < class="my_photos">
     <div class="sobre_titulo">
-      <h1>Fotos</h1>
+      <h1 id="fotos" >Fotos</h1>
       <p class="citacao">
         "Você sabe que encontrou a felicidade quando vive um momento que não
         quer que acabe."
@@ -146,7 +147,7 @@
       <img class="paisagem" src="img/photos/leonardo-sp.jpg" alt="Eu e Mayra" />
       <img class="paisagem" src="img/photos/pets.jpg" alt="Eu e Mayra" />
     </div>
-    <section class="services">
+    <section id="services" class="services">
       <div class="sobre_titulo">
         <h1>Serviços</h1>
         <p></p>
@@ -198,7 +199,7 @@
         </ul>
       </div>
     </section>
-    <div class="my_resume">
+    <div id="curriculo" class="my_resume">
       <div class="sobre_titulo">
         <h1>Meu Currículo</h1>
         <p>
@@ -474,7 +475,7 @@
         </div>
       </div>
     </div>
-    <section class="projects">
+    <section id="projetos" class="projects">
       <div class="sobre_titulo">
         <h1>Meus projetos</h1>
         <p>
@@ -557,7 +558,7 @@
       >
     </section>
     <footer>
-      <div class="sobre_titulo">
+      <div id="contact" class="sobre_titulo">
         <h1>Social</h1>
         <p>Me encontre nas redes sociais!</p>
       </div>

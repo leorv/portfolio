@@ -42,6 +42,7 @@ header .navegacao-primaria {
     display: flex;
     gap: 30px;
     align-items: center;
+    font-family: 'Poppins';
 }
 
 header .navegacao-primaria li a {
@@ -95,8 +96,9 @@ header .navegacao-primaria li a:hover::after {
 
 .section-div div p {
     font-family: 'Poppins';
-    font-weight: 200;
-    color: #f7f7f7;
+    font-weight: 400;
+    font-size: large;
+    color: #707070;
 }
 
 .section-div div a {
